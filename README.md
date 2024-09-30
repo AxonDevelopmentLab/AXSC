@@ -9,7 +9,7 @@ Saiba mais em: https://axonlab.glitch.me/
 Todo o código do AXSC é aberto, desde o CLI até o Servidor Intermediador, inclusive, ensinamos a como criar o seu próprio servidor intermediador.
 
 ## Instale o AXSC
-- Clique [aqui](https://github.com/akkui/AXSC-Client/releases/) para acessar as últimas atualizações.
+- Clique [aqui](https://github.com/akkui/AXSC-Client/releases/) para acessar as últimas atualizações e links de downloads.
 - Disponível para: Windows, Linux, MacOS
 - Caso você queira saber como utilizar o AXSC sem instalar o executável, clique [aqui](https://github.com/akkui/AXSC-Client/blob/main/README.md) para entender como fazer isso.
 - Caso você queira hospedar o seu próprio intermediário, clique [aqui](https://github.com/akkui/AXSC-Intermediary/blob/main/README.md) para entender como fazer isso.
