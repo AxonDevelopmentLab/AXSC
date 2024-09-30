@@ -11,8 +11,8 @@ Todo o código do AXSC é aberto, desde o CLI até o Servidor Intermediador, inc
 ## Instale o AXSC
 - Clique [aqui](https://github.com/akkui/AXSC-Client/releases/) para acessar as últimas atualizações.
 - Disponível para: Windows, Linux, MacOS
-- Caso você queira saber como utilizar o AXSC sem instalar o executável, clique [aqui](https://github.com/akkui/AXSC-Client/README.md) para entender como fazer isso.
-- Caso você queira hospedar o seu próprio intermediário, clique [aqui](https://github.com/akkui/AXSC-Intermediary/README.md) para entender como fazer isso.
+- Caso você queira saber como utilizar o AXSC sem instalar o executável, clique [aqui](https://github.com/akkui/AXSC-Client/blob/main/README.md) para entender como fazer isso.
+- Caso você queira hospedar o seu próprio intermediário, clique [aqui](https://github.com/akkui/AXSC-Intermediary/blob/main/README.md) para entender como fazer isso.
 
 ## Como o AXSC funciona?
 O método de funcionamento do AXSC é simples, mas eficaz.<br>
@@ -31,5 +31,5 @@ no meio temos um mediador, para garantir que os clients não se conectem diretam
 ### Observações
 - A chave utilizada de fato para a criptografia/descriptografia é armazenada apenas localmente, o INT recebe apenas um representante dessa chave (na qual obviamente é diferente da chave).
 - O INT é apenas responsável pelas salas e jumper das mensagens enviadas, sem quaisquer tipo de registro do que passa por ele. E mesmo se possuisse um registro, apenas seria possível saber quem enviou a mensagem e em qual ID da Sala foi, mas não é possível desvendar o conteúdo da mensagem, muito menos a Chave da Sala.
-- O INT é configurável, você pode hostear o seu próprio INT caso for preciso. Clique [aqui](https://glitch.com/edit/#!/remix/axsc) para realizar um clone do INT Oficial na Glitch, caso for preciso, você também pode instalar o [código-fonte](https://github.com/akkui/AXSC-Intermediary/server.js) e hostear em outro lugar. 
+- O INT é configurável, você pode hostear o seu próprio INT caso for preciso. Clique [aqui](https://glitch.com/edit/#!/remix/axsc) para realizar um clone do INT Oficial na Glitch, caso for preciso, você também pode instalar o [código-fonte](https://github.com/akkui/AXSC-Intermediary/blob/main/server.js) e hostear em outro lugar. 
 - O INT não é o princípio fundamental da segurança do envio dos dados pelo AXSC, porém ele é a parte fundamental para garantir que os usuários mantenham-se anônimos entre si, uma má configuração pode vir trazer riscos a privacidade dos usuários que utilizarem o seu INT Pessoal, lembre-se, este projeto foi criado com princípios éticos de liberdade de expressão, você é livre para utilizar-lo para o que quiser, mas eu peço por favor, que não faça nada com âmbito para prejudicar com utilizar o AXSC pelo seu INT Pessoal.
